@@ -1,0 +1,97 @@
+.title-h2{
+    font-size: 24px;
+   font-weight: 700;
+   }
+
+.bg-white{
+    background-color: var(--primary--bg--color--3);
+
+}
+.bg-green{
+    background-color: var(--primary--bg--color--1);
+    color: var(--primary--bg--color--3);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bg-green-item{
+    flex: 0 0 60%;
+}
+
+.bg-green-item-img{
+text-align: center;
+flex: 0 0 40%;
+}
+
+.bg-green h3{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.bg-green input{
+    font-size: 14px;
+    border: 1px solid  var(--primary--bg--color--3);
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+.bg-green.btn{
+    display: block;
+    text-align: center;
+    max-width: 160px;
+    padding: 9px 0;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 0 30px;
+}
+
+.grid-item-title{
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.grid-item-img{
+    grid-column: 4/5;
+    grid-row: 1/2;
+    text-align: center;
+}
+
+.grid-item-left{
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+
+.grid-item-right{
+    grid-column: 3/5;
+    grid-row: 3/4;
+}
+
+.grid-item-catalog{
+    text-align:center;
+    padding: 15px 30px;
+}
+
+.grid-item-catalog .bg-white{
+    padding: 15px 30px;
+}
+
+.grid-price{
+    font-size: 21px;
+    font-weight: 500;
+}
+.grid-btn{
+    border-radius: 20px;
+    border: 2px solid var(--primary--bg--color--1);
+    color: var(--primary--bg--color--3) ;
+    background-color:var(--primary--bg--color--1);
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: 0.2s ease;
+    cursor: pointer;
+}

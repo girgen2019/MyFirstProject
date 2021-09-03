@@ -1,0 +1,86 @@
+.nav {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding-left: 0;
+}
+
+.nav-top {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-top-link {
+    text-decoration: none;
+    color: var(--primary--text--1);
+}
+.nav-footer{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nav-footer-link{
+    text-decoration: none;
+    color: var(--primary--text--1);
+}
+.header {
+    background-color: white;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.logo {
+    color: var(--primary--bg--color--1);
+    font-size: 36px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo-image{
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-image: var(--image--logo);
+    margin-right: 10px;
+}
+
+.header-info span {
+    font-size: 16px;
+}
+
+.header-info button {
+    font-size: 14px;
+    border-radius: 20px;
+    border: 2px solid var(--primary--bg--color--1);
+    background-color: var(--primary--bg--color--3);
+    padding: 10px 15px;
+    margin-left: 50px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.header-info button:hover{
+   background-color: var(--primary--bg--color--1);
+   
+}
+
+.header-button {
+    padding: 15px 0;
+}
+
+.header-button.nav {
+    font-size: 16px;
+    margin: 0;
+}
+
+.header-line {
+    border: none;
+    background-color: #EFEFEF;
+    height: 1.5px;
+}
